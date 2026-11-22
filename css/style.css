@@ -1,0 +1,130 @@
+/* إعدادات عامة للصفحة */
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    /* background-color: #f0f2f5; */
+    margin: 0;
+    padding: 0;
+}
+
+/* الحاوية الرئيسية لتوسيط المحتوى واستخدام الفلوت */
+.container {
+    width: 980px;
+    margin: 120px auto 0 auto;
+    padding: 20px;
+}
+
+/* القسم الأيسر */
+.left-section {
+    float: left;
+    width: 580px;
+    padding-top: 40px;
+}
+
+.fb-logo {
+    width: 300px;
+    margin-left: -28px; /* ضبط محاذاة الصورة مع النص */
+}
+
+.fb-description {
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    color: #1c1e21;
+    width: 500px;
+    margin-top: -10px;
+}
+
+/* القسم الأيمن (صندوق تسجيل الدخول) */
+.right-section {
+    float: right;
+    width: 396px;
+}
+
+.login-card {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+/* حقول الإدخال */
+.input-field {
+    width: 100%;
+    padding: 14px 16px;
+    font-size: 17px;
+    border: 1px solid #ccd0d5;
+    border-radius: 6px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.input-field:focus {
+    border-color: #1877f2;
+    box-shadow: 0 0 0 2px #e7f3ff;
+}
+
+/* زر تسجيل الدخول */
+.login-btn {
+    width: 100%;
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 12px 0;
+    cursor: pointer;
+    margin-bottom: 16px;
+}
+
+.login-btn:hover {
+    background-color: #166fe5;
+}
+
+/* رابط نسيت كلمة المرور */
+.forgot-password {
+    margin-bottom: 20px;
+}
+
+.forgot-password a {
+    color: #1877f2;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.forgot-password a:hover {
+    text-decoration: underline;
+}
+
+/* الخط الفاصل */
+.divider {
+    border: none;
+    border-top: 1px solid #dadde1;
+    margin-bottom: 20px;
+}
+
+/* زر إنشاء حساب جديد */
+.create-btn {
+    background-color: #42b72a;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 12px 16px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.create-btn:hover {
+    background-color: #36a420;
+}
+
+/* كود إيقاف تأثير الفلوت (Clearfix) */
+.clearfix {
+    clear: both;
+}
